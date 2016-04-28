@@ -1,0 +1,39 @@
+<!--Comment Syntax.-->
+<!-- This file contains basic HTML tags learned through Code Academy -->
+
+<!-- Basic html layout looks like this. Any opening tag with <> must end with </> --> 
+<!DOCTYPE html> 
+  <!-- tells the web browser to expect an HTML document-->
+<html> 
+  <!-- root of the html document and a parent of all other elements on webpage-->
+  
+<head> 
+  <!-- includes all metadata about the site including title-->
+  <title> the site's title, users find this title through search engine </title>
+  <meta charset="UTF-8">
+  <!-- tells the web browser which character set to use. UTF-8 is defaul character set for HTML 5 -->
+</head>
+<body>
+  the content of the website
+</body>
+</html>
+
+<!-- Basics Tags-->
+<h1> through <h6> This dictaces the size of your headings
+<p> Paragragh tag
+<img src="http://www.imagename.com"/> image tag, they are self closing
+<a href="http://www.sitename.com"> Links to site </a>
+
+<ol>
+  <li>ordered lists contain numbers</li>
+</ol>
+
+<ul>
+  <li> unorderlists contain bullets </li>
+</ul>
+
+<font-family: Font name>
+<font-size: 10px or 1rem or 2em> rem represents default size of web browser, so 1rem=16px, 2rem=32px, 3rem=48px etc. 
+<font-color: red or HEX# or>
+<background-color: red>
+<background-image: url(http://www....")>
