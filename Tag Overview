@@ -25,7 +25,7 @@
 <a href="http://www.sitename.com"> Links to site </a>
 
 <ol>
-  <li>ordered lists contain numbers</li>
+  <li>ordered lists contain numbers</li> <!--you can also bed lists within lists -->
 </ol>
 
 <ul>
@@ -34,6 +34,13 @@
 
 <font-family: Font name>
 <font-size: 10px or 1rem or 2em> rem represents default size of web browser, so 1rem=16px, 2rem=32px, 3rem=48px etc. 
-<font-color: red or HEX# or>
+<color: red or HEX# >
 <background-color: red>
 <background-image: url(http://www....")>
+<strong> This creates bold words </strong>
+<em> This create italic words </em>
+
+<!-- you can also add styling right into tags, see below -->
+<p style="font-size: 12px"></p>
+<h1 style="color: red"></h1>
+
