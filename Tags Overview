@@ -44,6 +44,27 @@
 <p style="font-size: 12px"></p>
 <h1 style="color: red"></h1>
 
-<table>
-<div>
+<!--TABLE TAGS-->
+<table  table border="1px"> creates a border around the table
+    <thead> Is the table head tag which can be thought of as containing information about a table 
+      <tr>
+        <th colspan="3"> Is used to name a table column header </th>
+        <!--the colspan tag is used to make the table header span across the rows by setting the artribute to the
+        number of columns-->
+      </tr>
+    </thead>
+      <tbody> Is the table body tag which contains the actual tabular data.
+        <tr> This creates a table row but no data goes here 
+            <td> This is where you put the table data </td>
+            <td> By adding a second td tag it creates a second column in the same row </td>
+      
+        </tr>  
+      </tbody>
+</table>
+
+<!--DIV TAGS-->
+<div> This tag allows you to divide your page into containers 
+
+
+
 <span>
