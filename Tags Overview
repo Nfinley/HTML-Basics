@@ -57,14 +57,16 @@
         <tr> This creates a table row but no data goes here 
             <td> This is where you put the table data </td>
             <td> By adding a second td tag it creates a second column in the same row </td>
-      
         </tr>  
       </tbody>
 </table>
 
-<!--DIV TAGS-->
+<!--DIV TAG-->
 <div> This tag allows you to divide your page into containers 
+</div>
+
+<!-- SPAN TAG-->
+<span> allows you to control styling for smaller parts of your page, such as text. 
+For example <span style="color:red">red!</span> This makes only the word 'red!' red.
 
 
-
-<span>
