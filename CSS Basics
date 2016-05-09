@@ -1,7 +1,22 @@
 
+<!-- CSS BASICS -->
 <!-- This file contains basics of CSS (Cascading Style Sheets) learned through Codecademy -->
-<!-- In order to to link HTML file to CSS sheet you must do the following -->
+<!-- In order to to link HTML file to CSS sheet you must create a link within the HTML file to the CSS file-->
+<!-- The 'link'has three parts, 'type' that should always be equal to 'text/css', 'rel' attribute that should be equal to 'stylesheet' 
+and 'href' that should link to your css file, see below-->
+  <link type="text/css" rel="stylesheet" href="CSS file address"/> The link tag is also self closing just like the img tag
+  
+<!-- CSS SYNTAX-->
+
+Basic syntax is as follows: 
+selector {
+    property: value;
+}
+
+<!-- The 'selector' can be any html element such as <p>, <img> or <table> 
+The 'property'is an aspect of 'selector', you can change things like 'font-family', 'color' and 'font-size'
+The 'value' is a possible setting for a 'property', ie: the 'font' can be blue, red or black and the 'font-family' 
+can be arial, etc. Each property value must end with  ';'-->
 
 
-
-
+/* This is the format for a CSS comment */
