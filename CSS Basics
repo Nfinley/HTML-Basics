@@ -1,14 +1,15 @@
 
-<!-- CSS BASICS -->
-<!-- This file contains basics of CSS (Cascading Style Sheets) learned through Codecademy -->
-<!-- In order to to link HTML file to CSS sheet you must create a link within the HTML file to the CSS file-->
-<!-- The 'link'has three parts, 'type' that should always be equal to 'text/css', 'rel' attribute that should be equal to 'stylesheet' 
-and 'href' that should link to your css file, see below-->
+/* CSS BASICS
+This file contains basics of CSS (Cascading Style Sheets) learned through Codecademy
+In order to to link HTML file to CSS sheet you must create a link within the HTML file to the CSS file
+The 'link'has three parts, 'type' that should always be equal to 'text/css', 'rel' attribute that should be equal to 'stylesheet' 
+and 'href' that should link to your css file, see below */
   <link type="text/css" rel="stylesheet" href="CSS file address"/> The link tag is also self closing just like the img tag
-  
-<!-- CSS SYNTAX-->
+
+/* CSS SYNTAX */
 
 Basic syntax is as follows: 
+
 selector {
     property: value;
 }
@@ -20,3 +21,13 @@ can be arial, etc. Each property value must end with  ';'-->
 
 
 /* This is the format for a CSS comment */
+
+/* Color types: Hexadecimal, Pixels, and EMs
+
+/* Hexadecimal colors are six digits and can be digits from 0 to 9 and letters a to f. 
+
+Ems: The font-size unit em is a relative measure: one em is equal to the default font size on whatever screen the user is using.
+1em is the normal font size and 2em is twice the size. 
+
+*/
+
