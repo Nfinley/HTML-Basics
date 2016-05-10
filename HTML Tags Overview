@@ -39,6 +39,7 @@
 <background-image: url(http://www....")>
 <strong> This creates bold words </strong>
 <em> This create italic words </em>
+<border: 2px solid red;> This property supports a few values
 
 <!-- you can also add styling right into tags, see below -->
 <p style="font-size: 12px"></p>
@@ -64,6 +65,10 @@
 <!--DIV TAG-->
 <div> This tag allows you to divide your page into containers 
 </div>
+
+<!-- Three properties of the <div> tag are background-color, width and height -->
+
+
 
 <!-- SPAN TAG-->
 <span> allows you to control styling for smaller parts of your page, such as text. 
