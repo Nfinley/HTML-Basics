@@ -34,6 +34,7 @@
 
 <font-family: Font name>
 <font-size: 10px or 1rem or 2em> rem represents default size of web browser, so 1rem=16px, 2rem=32px, 3rem=48px etc. 
+<font-weight: bold or italic>
 <color: red or HEX# >
 <background-color: red>
 <background-image: url(http://www....")>
