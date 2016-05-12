@@ -37,3 +37,6 @@ text-decoration: none (this removes the underline standard on a hyperlink) */
 
 To add CSS styling to every element you can use * as a selector 
 
+In order to style an element directly inside another element or their direct children you can do this: 
+div > p { /* Some CSS */ }
+
