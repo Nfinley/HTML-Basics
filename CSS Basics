@@ -35,3 +35,5 @@ Ems: The font-size unit em is a relative measure: one em is equal to the default
 Within CSS stylesheet you can decorate links, ie: 
 text-decoration: none (this removes the underline standard on a hyperlink) */
 
+To add CSS styling to every element you can use * as a selector 
+
