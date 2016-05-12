@@ -40,6 +40,9 @@
 <strong> This creates bold words </strong>
 <em> This create italic words </em>
 <border: 2px solid red;> This property supports a few values
+<border-radius> This property modifies the corners of your HTML objects
+<margin: auto> This sets the margin with equal sides on the HTML element
+<text-align: betner> Aligns text to center
 
 <!-- you can also add styling right into tags, see below -->
 <p style="font-size: 12px"></p>
