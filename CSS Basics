@@ -33,10 +33,38 @@ Ems: The font-size unit em is a relative measure: one em is equal to the default
 
 /* Links and TEXT DECORATION
 Within CSS stylesheet you can decorate links, ie: 
-text-decoration: none (this removes the underline standard on a hyperlink) */
+text-decoration: none (this removes the underline standard on a hyperlink) 
 
 To add CSS styling to every element you can use * as a selector 
 
 In order to style an element directly inside another element or their direct children you can do this: 
 div > p { /* Some CSS */ }
+*/
+
+
+/* IDs and CLASSES within CSS 
+
+CLASS: 
+CLASSes are great when you have a group of elements that need the same styling
+Within HTML it looks like <div class="header"></div>
+To identify a CLASS in the CCS stylesheet you use a (.) 
+For example: 
+.header {
+  height: 100px;
+  width: 50px;
+  }
+  
+  ID:
+  IDs on the other hand are great when you have exactly one element that needs styling
+  They are assigned in HTML like this: <div id="header"></div>
+  ID's are identified in the CSS stylesheet with a pound sign (#).
+  For example: 
+  #header {
+    height: 100px;
+  }
+  Applies to a single instance instead of an entire class
+  
+  
+
+  */
 
