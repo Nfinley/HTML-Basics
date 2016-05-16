@@ -63,8 +63,26 @@ For example:
     height: 100px;
   }
   Applies to a single instance instead of an entire class
-  
-  
-
   */
+  
+  /* Pseudo Class Selectors
+  Allows you to access HTML elements that are not part of the document tree, like changing a link when you hover over it
+  It's the colon after the selector that makes it a pseudo selector. See below:
+  selector:pseudo-class_selector {
+    property: value;
+} 
+For example: 
 
+a:hover {
+  color: red;
+  font-weight: bold;
+}
+Here are some useful pseudo selectors: 
+a:link: An unvisited link.
+a:visited: A visited link.
+a:hover: A link you're hovering your mouse over.
+p:first-child {
+    color: red;
+} This makes the first child red. 
+:nth-child(#) : Allows you to style any child in the html
+*/
