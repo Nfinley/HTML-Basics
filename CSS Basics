@@ -86,3 +86,39 @@ p:first-child {
 } This makes the first child red. 
 :nth-child(#) : Allows you to style any child in the html
 */
+
+div {
+	display: inline-block;
+	margin-left: 5px;
+	
+}
+
+/* CSS POSITIONING 
+The DISPLAY property has four values: block, inline, inline-block and none. 
+
+block= Makes the element a block box and won't let anything sit next to it, takes up entire width of page. 
+
+inline-block= Makes the element a block box and will let other elements to sit next to it
+
+inline= Makes the element sit on the same line as another element, but without formatting it like a block. 
+It only takes up as much width as it needs (not the whole line). They don't keep dimensions. The inline display 
+value is better suited for HTML elements that are blocks by default, such as headers and paragraphs.
+
+none= Makes the element and its content disappear
+*/
+
+/* MARGINS, BORDERS, and PADDING
+Margin = The space around the element, you can adjust to make elements closer to or farther away from eachother
+  Example settings: 
+    margin: auto: This automatically puts equal left and right margin on the element.
+  Margin be set in two ways. Using the below example:
+    margin-top: /*some value*/
+    margin-right: /*some value*/
+    margin-bottom: /*some value*/
+    margin-left: /*some-value*/
+  Or you can list the pixels clockwise starting at the top like this: margin: 150px 10px 20px 5px 
+    
+Border= The edge of the element
+Padding= The space between the content and the border. Can be set using the same two ways as mentioned above for margin. 
+
+
