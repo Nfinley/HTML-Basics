@@ -92,4 +92,10 @@ The relationship of html, head and body:
 	</body>
 </html>
 
-
+<!-- Common Page Structure -->
+<head> ... </head>
+	<section> Used to identify a thematic group, which generally in cludes a heading. 
+	Commonly used to break up and provide heirarch to a page </section>
+	<article> Used to identify a large piece of content like blog posts, article or user generated content </article>
+	<aside> holds content such as sidebars, links, inserts or brief explanations </aside>
+	<footer> ...</footer>
