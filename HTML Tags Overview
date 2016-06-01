@@ -44,6 +44,10 @@
 <border-radius> This property modifies the corners of your HTML objects
 <margin: auto> This sets the margin with equal sides on the HTML element
 <text-align: center> Aligns text to center
+<line-height: 20px> This give a height to an line of text
+<text-transform: uppercase> This makes text uppercase
+<letter-spacing: 2px;> Puts space inbetween each letter
+
 
 <!-- you can also add styling right into tags, see below -->
 <p style="font-size: 12px"></p>
