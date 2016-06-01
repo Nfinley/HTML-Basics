@@ -93,8 +93,9 @@ div {
 	
 }
 
-/* CSS POSITIONING 
+/* CSS POSITIONING  **add more info about how 'postion' and 'display' must work together***
 The DISPLAY property has four values: block, inline, inline-block and none. 
+https://css-tricks.com/almanac/properties/d/display/
 
 block= Makes the element a block box and won't let anything sit next to it, takes up entire width of page. 
 
@@ -102,7 +103,8 @@ inline-block= Makes the element a block box and will let other elements to sit n
 
 inline= Makes the element sit on the same line as another element, but without formatting it like a block. 
 It only takes up as much width as it needs (not the whole line). They don't keep dimensions. The inline display 
-value is better suited for HTML elements that are blocks by default, such as headers and paragraphs.
+value is better suited for HTML elements that are blocks by default, such as headers and paragraphs. It was also not accept
+height and width, it will ignore it. 
 
 none= Makes the element and its content disappear
 */
@@ -137,7 +139,7 @@ element {
 position: absolute is positioned in relation to the first parent that doesn't have position:static. If no parent exists the 
 element with position:absolute gets positioned relative to the <html>
 
-position: relative is more straightforward than position:absolute. It is positioned relative to where it would have landed
+position: relative is more straight  forward than position:absolute. It is positioned relative to where it would have landed
 if it had the property of position:static.
 
 position:fixed anchors and element to the browser window. It in affect glues it to the page. If you scroll 
@@ -145,4 +147,13 @@ this element stays put as others elements scroll.
 
 z-index property determines the stack level of the an HTML element. Will only worked if applied to a positioned element
 
+/* BACKGROUND IMAGE - FULL BACKGROUND */
+/* https://css-tricks.com/perfect-full-page-background-image/ */
+In order to use a background image that covers the entire browser you can use the following code: 
+In CSS tab (use can put it in the html CCS or add an id/class tag in the html here we use class 'bg'): 
+	.bg {
+  		background: url(http://image.jpg) no-repeat center center fixed;
+		background-size: cover;
+		height: 800px;
+		}
 
