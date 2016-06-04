@@ -1,0 +1,46 @@
+
+/* Bootstrap Basics as learned through Codecademy and also on the CSS Bootstrap page http://getbootstrap.com/css/ */
+
+Bootstrap uses a fluid grid system that appropriately scales up to 12 columns. It includes predefined classes for easy layout options.
+Bootstrap requires a containing element to wrap site contents and house our grid system. 
+<div class="container">
+  ...
+</div>
+The columns need to add up to 12. Below are examples of the grid coding: 
+<div class="row">
+  <div class="col-md-1">.col-md-1</div>
+  <div class="col-md-1">.col-md-1</div>
+  <div class="col-md-1">.col-md-1</div>
+  <div class="col-md-1">.col-md-1</div>
+  <div class="col-md-1">.col-md-1</div>
+  <div class="col-md-1">.col-md-1</div>
+  <div class="col-md-1">.col-md-1</div>
+  <div class="col-md-1">.col-md-1</div>
+  <div class="col-md-1">.col-md-1</div>
+  <div class="col-md-1">.col-md-1</div>
+  <div class="col-md-1">.col-md-1</div>
+  <div class="col-md-1">.col-md-1</div>
+</div>
+<div class="row">
+  <div class="col-md-8">.col-md-8</div>
+  <div class="col-md-4">.col-md-4</div>
+</div>
+<div class="row">
+  <div class="col-md-4">.col-md-4</div>
+  <div class="col-md-4">.col-md-4</div>
+  <div class="col-md-4">.col-md-4</div>
+</div>
+<div class="row">
+  <div class="col-md-6">.col-md-6</div>
+  <div class="col-md-6">.col-md-6</div>
+</div>
+
+
+To create a tabs simply use the nav nav-tabs class 
+
+<ul class="nav nav-tabs">
+	<li><a href="#">Primary</a></li>
+	<li class="active"><a href="#">Social</a></li>
+	<li><a href="#">Promotions</a></li>
+	<li><a href="#">Updates</a></li>
+</ul>
