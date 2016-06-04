@@ -35,7 +35,7 @@ The columns need to add up to 12. Below are examples of the grid coding:
   <div class="col-md-6">.col-md-6</div>
 </div>
 
-
+TABS
 To create a tabs simply use the nav nav-tabs class 
 
 <ul class="nav nav-tabs">
@@ -44,3 +44,12 @@ To create a tabs simply use the nav nav-tabs class
 	<li><a href="#">Promotions</a></li>
 	<li><a href="#">Updates</a></li>
 </ul>
+
+The class="active" tag makes that indicated tab active
+
+PILLS
+They are a set of buttons that give links to different parts of a site.Bootstrap makes it easy to create pill navigation. 
+<div class="nav nav-pils">
+
+JUMBOTRON
+Used to draw extra attention to important content on the site. Apple uses jumbotrons on their pages
