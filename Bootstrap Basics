@@ -49,7 +49,7 @@ The class="active" tag makes that indicated tab active
 
 PILLS
 They are a set of buttons that give links to different parts of a site.Bootstrap makes it easy to create pill navigation. 
-<div class="nav nav-pils">
+<div class="nav nav-pills">
 
 JUMBOTRON
 Used to draw extra attention to important content on the site. Apple uses jumbotrons on their pages
