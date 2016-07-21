@@ -103,3 +103,21 @@ The relationship of html, head and body:
 	<article> Used to identify a large piece of content like blog posts, article or user generated content </article>
 	<aside> holds content such as sidebars, links, inserts or brief explanations </aside>
 	<footer> ...</footer>
+	
+Break it out with  (SEE UT SLIDES)
+
+Headers: 
+
+
+Containers
+
+Others: 
+
+Comon u/I Form Elements: 
+<form> - Creates a form section in HTML
+<input> - input boxes 
+<label> - label boxes
+<button> - 
+<textarea>
+
+	
