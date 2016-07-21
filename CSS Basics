@@ -31,6 +31,17 @@ Ems: The font-size unit em is a relative measure: one em is equal to the default
 
 */
 
+/* FONTS
+
+
+
+*/
+
+/* BACKGROUND
+
+
+*/
+
 /* Links and TEXT DECORATION
 Within CSS stylesheet you can decorate links, ie: 
 text-decoration: none (this removes the underline standard on a hyperlink) 
@@ -109,7 +120,10 @@ height and width, it will ignore it.
 none= Makes the element and its content disappear
 */
 
-/* MARGINS, BORDERS, and PADDING
+
+/* ALIGNMENT-SPACING: 
+
+MARGINS, BORDERS, and PADDING
 Margin = The space around the element, you can adjust to make elements closer to or farther away from eachother
   Example settings: 
     margin: auto: This automatically puts equal left and right margin on the element.
@@ -156,4 +170,5 @@ In CSS tab (use can put it in the html CCS or add an id/class tag in the html he
 		background-size: cover;
 		height: 800px;
 		}
+
 
